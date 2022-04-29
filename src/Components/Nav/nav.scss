@@ -1,0 +1,163 @@
+@import '../global.scss';
+
+.Nav{
+    width:100%;
+    height: 70px;
+    background-color:white;
+    color: $mainColor;  
+    position:fixed;
+    top: 0;
+    z-index: 3;
+    border-style:solid;
+    border-width: 0px 0px 2px 0px;
+    overflow: hidden;
+    
+
+    .wrapper{
+      padding: 10px 10px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between; 
+      
+        .ProjectNav{
+         text-decoration: none;
+         font-size: 20px;
+         color: $mainColor;
+         display: inline-block;
+         position: relative;
+         font-weight: 450;
+
+         @include phone {
+          display: none;
+         }
+
+        }
+
+        .ProjectNav:after{ // creates line before and after
+          content: '';   
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $mainColor;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+
+        .ProjectNav:hover:after{
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+
+        .ContactNav{
+          text-decoration: none;
+          font-size: 20px;
+          color: $mainColor;
+          font-weight: 450;
+          display: inline-block;
+          position: relative;
+          @include phone {
+            display: none;
+          }
+        }
+
+        .ContactNav:after{
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $mainColor;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+
+        .ContactNav:hover:after{
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+
+         .Home{
+          border-radius: 50%;
+          background-color: $mainColor;
+          color: white;
+          font-size: 25px;
+          padding: 10px;
+          text-decoration: none;
+          
+        }
+
+        .Home:focus{
+          background-color: rgb(0, 87, 87);
+        }
+
+    }
+
+   
+    
+      .hamburger{
+        width: 32px;
+        height: 25px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+        span{
+          width: 100%;
+          height: 3px;
+          background-color: $mainColor;
+          transform-origin:left;
+          
+        
+      }
+    }
+
+    &.active{
+      background-color: $mainColor;
+      color: white;
+      .hamburger {
+        span {
+          &:first-child {
+            background-color:white;
+            transform: rotate(45deg);
+          }
+          &:nth-child(2){
+            opacity: 0;
+          }
+          &:last-child {
+            background-color:white;
+            transform: rotate(-45deg); 
+          }
+        }
+      }
+
+      .ProjectNav{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+       }
+
+       .ContactNav{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+       }
+
+         .Home{
+          border-radius: 50%;
+          border-color: white;
+          background-color: $mainColor;
+          color: white;
+          font-size: 25px;
+          padding: 10px;
+          border-style: solid;
+          border-width: 2px;
+
+        }
+    }
+  }

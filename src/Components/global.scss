@@ -1,0 +1,18 @@
+$mainColor: teal;
+
+$width: 500px;
+
+@mixin phone {
+  @media (max-width: #{$width}){
+    @content
+  }
+}
+
+* {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
