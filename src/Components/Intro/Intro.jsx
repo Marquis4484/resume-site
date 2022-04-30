@@ -16,8 +16,13 @@ export default function Intro() {
           <p>Hello! I am a frontend developer who is interested in creating efficient and innovative projects. 
             I am currently looking for a team to further my development in this field. I am always willing to challenge myself everyday!
             If you'd like to learn more about my skills, you can navigate through this webpage on your PC or Mobile device. 
-            You can also click on the button below to view my resume. I hope we can work together in the furture!</p>
-            <a href={pdf} target='_blank' rel="noreferrer" className='resume-button'>View Resume</a>
+            You can also check out my github or my resume down below. I hope we can work together in the furture!</p>
+            <div className="link-container">
+              <a href={pdf} target='_blank' rel="noreferrer" className='resume-button'>View Resume</a>
+              <a href='https://github.com/Marquis4484' target='_blank' rel="noreferrer" className='github-button'>View Github</a>
+            </div>
+            
+            
         </div>
       </div>
     </div>

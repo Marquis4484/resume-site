@@ -9,9 +9,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
-
-     
-
+    
   emailjs.sendForm(`${process.env.REACT_APP_SERVICE_KEY}`, `${process.env.REACT_APP_TEMPLATE_KEY}`, e.target, `${process.env.REACT_APP_API_KEY}`)
   .then((result) => {
       console.log(result.text);

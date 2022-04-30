@@ -17,6 +17,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
+
      @include phone{
         flex: 0.4;
     }
@@ -25,9 +26,7 @@
     .portfolio-pic{
         width:500px;
         height: auto;
-        border-style: solid;
-        border-color: $mainColor;
-        border-width: 3px 0px 0px 4px;
+        box-shadow: 12px 12px 2px 1px rgb(167, 164, 164);
         border-radius: 10px 10px 10px 10px;
     
         @include phone{
@@ -83,25 +82,48 @@
                 font-size: 10px;
             }
          }
+         .link-container{
+             display: flex;
+             
          .resume-button{
-             width: 130px;
-             height: 30px;
-             color: white;
-             background-color: $mainColor;
-             border: none;
-             border-radius: 10px;
-             font-weight: 500;
-             cursor: pointer;
-             text-align: center;
-             text-decoration: none;
-             font-weight: 400;
-             padding: 8px 0px 0px 0px;
+            width: 130px;
+            height: 30px;
+            color: white;
+            background-color: $mainColor;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 400;
+            padding: 8px 0px 0px 0px;
+            margin: 8px;
 
-             @include phone{
-                width: 50px;
-                height: 30px;
-                font-size: 12px;
-            }
+            @include phone{
+               width: 50px;
+               height: 30px;
+               font-size: 12px;
+           }
+
+          
+        } 
+        .github-button{
+               width: 130px;
+               height: 30px;
+               color: white;
+               background-color: $mainColor;
+               border: none;
+               border-radius: 10px;
+               font-weight: 500;
+               cursor: pointer;
+               text-align: center;
+               text-decoration: none;
+               font-weight: 400;
+               padding: 8px 0px 0px 0px;
+               margin: 8px;
+           }
+
          }
      }
   }
