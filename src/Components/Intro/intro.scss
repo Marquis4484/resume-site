@@ -3,7 +3,7 @@
 .Intro{
  background-color: white;
  display: flex;
-
+ 
  @include phone{
      flex-direction: column;
      align-items: center;

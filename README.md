@@ -16,14 +16,17 @@ Content is where each component is placed on renderd.
 
 ### Nav
 
+The nav bar contains links to both sections of this project, a hamburger menu, and a dark mode toggle switch.
 
 
 ### Intro
 
+This compnent is the first page that you will see. It contains a small introduction about myself and contians a link to both my resume and my github.
+
 
 ### Projects
 
-
+### Switch
 
 ### Menu
 
@@ -38,6 +41,9 @@ Content is where each component is placed on renderd.
 ### SASS
 
 ### Email-js
+
+## Credit 
+Mantine.dev
 
 ## Conclusion
 
