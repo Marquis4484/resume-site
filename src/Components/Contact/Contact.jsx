@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import emailjs from 'emailjs-com';
-import './contact.scss'
+import './contact.scss';
 
 export default function Contact() {
 
@@ -19,6 +19,7 @@ export default function Contact() {
   e.target.reset()
   };
 
+  console.log(process.env)
   return (
     <div className='Contact' id='Contact'>
       <div className="left">
@@ -38,4 +39,6 @@ export default function Contact() {
     </div>
   )
 }
+
+
 

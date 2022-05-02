@@ -168,11 +168,12 @@
   
   #dark .Nav{
     background-color: #5C5F66;
+    border:none;
     color: white;
     
   }
 
   #light .Nav{
-    background-color: white;
+    
     color: $mainColor;
   }

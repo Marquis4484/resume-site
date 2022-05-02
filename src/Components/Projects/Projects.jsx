@@ -20,7 +20,7 @@ export default function Projects() {
     {
       id: "3",
       title: "Check Out My Github!",
-      description: "I'm still learning how to create more apps in the future. If you'd like to view my progress, click on the button below this carousel.",
+      description: "I'm still learning how to create more apps in the future. If you'd like to view my progress, click on the button on my homepage to view my github!",
       
     },
   ];

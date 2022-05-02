@@ -19,9 +19,9 @@
     position: absolute;
     cursor: pointer;
 
-    @include phone{
+    @include phone {
       display: none;
-    }
+     }
 
     &.left {
       left: 100px;
