@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease;
+    
 
     @include phone {
         width: 420px;
@@ -22,8 +23,6 @@
     &.active{
         left: 0;
     }
-
-
     
     ul{
         margin:0;

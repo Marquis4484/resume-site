@@ -2,6 +2,7 @@ import './menu.scss'
 
 export default function Menu({menuOpen,setMenuOpen}) {
   return (
+  
     <div className={"Menu " + (menuOpen && 'active')}>
         <ul>
             <li onClick={()=>setMenuOpen(false)}>

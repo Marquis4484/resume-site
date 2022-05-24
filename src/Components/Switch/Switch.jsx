@@ -1,20 +1,17 @@
-import React, { useContext } from 'react'
-import { ThemeContext } from '../Content/Content'
+import { useContext } from "react";
+import { ThemeContext } from "../../context/context";
 import './switch.scss'
 
 export default function Switch() {
-
-    const {theme,setTheme} = useContext(ThemeContext)
-    
-
-    const toggleTheme = () => {
-        setTheme((curr) => (curr === 'light' ? 'dark': 'light'))
-      }
-
+    const theme = useContext(ThemeContext);
+  
+    const handleClick = () => {
+      theme.dispatch({ type: "SWITCH" });
+    };
 
   return (
-    <label className="switch" onChange={toggleTheme} checked={theme === "dark"}>
-        <input type='checkbox'/>
+    <label className="switch" >
+        <input type='checkbox' onClick={handleClick}/>
         <span className='slider'/>
     </label>
   )

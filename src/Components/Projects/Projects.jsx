@@ -8,19 +8,19 @@ export default function Projects() {
   const data = [
     {
       id: "1",
-      title: "Weather App",
-      description: "This is a small app that I created using API data from openweathermap.org. It will give you weather data from over 200,000 cities. ",
+      title: "E-commerce App",
+      description: "Deployed a functional e-commerce application with an easy to understand user interface that delivers fast and reliable page reloads by utilizing the React framework Next.js.",
     },
     {
       id: "2",
-      title: "Future Projects!",
-      description: "I'm planning on creating a music player using the react framework. I'm hoping this will give me some ideas for creating an even bigger project in the future.",
+      title: "REST API",
+      description: "I created a RESTful API with Node.js that enforces CRUD operations in order to pass, update and delete data from the API platform Postman",
      
     },
     {
       id: "3",
-      title: "Check Out My Github!",
-      description: "I'm still learning how to create more apps in the future. If you'd like to view my progress, click on the button on my homepage to view my github!",
+      title: "User Authentication Web App",
+      description: "Designed a log-in and sign-up system with the ability to update passwords and emails by utilizing theapp development platform Firebase.",
       
     },
   ];

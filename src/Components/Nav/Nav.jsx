@@ -1,16 +1,12 @@
 import Switch from '../Switch/Switch'
-import { ThemeContext } from '../Content/Content'
-import { useContext } from 'react'
 import './nav.scss'
 
 export default function Nav({menuOpen, setMenuOpen}) { 
 
 
-  const {theme} = useContext(ThemeContext)
-
   return (
    
-    <div className = {"Nav " + (menuOpen && "active")} id={theme}>  
+    <div className = {"Nav " + (menuOpen && "active")}>  
       <div className="wrapper">
           
           <div className="hamburger" onClick={()=>setMenuOpen((menuOpen)=>!menuOpen)}>
