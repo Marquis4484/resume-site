@@ -1,7 +1,11 @@
 # MS Portfolio Site
+
+<img src='public/assets/resume-site-photo.png'>
+
 Hello! Thank you for checking out my project. The purpose of this project is to showcase my ability in making a totally responsive web page while using current frontend practices. 
 As a result, if you choose to view the site, you will recognize core website features such as a hambuger menu, a toggle for dark mode, and a carousel. The site is also  
-responsive if you'd like to view my progress on your mobile device. 
+responsive if you'd like to view my progress on your mobile device.
+
 You can view my project here : https://ms-portfolio-site.netlify.app/
 
 ## Components
