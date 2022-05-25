@@ -18,16 +18,14 @@ export default function Intro() {
       <div className='right'>
         <div className='wrapper'>
           <h1 style={{color: darkMode && 'white'}}>Marquis Sampson</h1>
-          <h2 style={{color: darkMode && 'white'}}>Front-end Developer</h2>
-          <p style={{color: darkMode && 'white'}}>Hello! I am a frontend developer who is interested in creating efficient and innovative projects. 
-            I am currently looking for a team to further my development in this field. I am always willing to challenge myself everyday!
-            If you'd like to learn more about my skills, you can view my resume down below. I hope we can work together in the future!</p>
+          <h2 style={{color: darkMode && 'white'}}>Web Developer</h2>
+          <p style={{color: darkMode && 'white'}}>Hello! I am a web developer who is interested in creating efficient and innovative projects. 
+            I am currently looking for a team to further my development in this field. I am always ready to challenge myself on any task that I take on!
+            If you'd like to learn more about my skills, you can view my resume by clicking the button down below. I hope that we can work together in the future!</p>
             <div className="link-container">
               <a href={pdf} target='_blank' rel="noreferrer" className='resume-button'>View Resume</a>
               <a href='https://github.com/Marquis4484' target='_blank' rel="noreferrer" className='github-button'>View Github</a>
             </div>
-            
-            
         </div>
       </div>
     </div>

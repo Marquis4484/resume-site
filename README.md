@@ -13,8 +13,7 @@ Content is the parent component of all of the components in the component folder
 'dark' theme state variables. 
 
 ### Nav
-The nav bar contains links to each section of this project, a hamburger menu, and a dark mode toggle switch. The dark toggle only effects the Nav bar because I need to restructure the css in the future so, that will involve changing how the 'light' and 'dark' themes are distributed throughout the app. I want to research a more efficient way of distributing 
-this light and dark functionality throughout my app without the process being tedious. As a result, the dark mode functionality with be locked to the navbar.
+The nav bar contains links to each section of this project, a hamburger menu, and a dark mode toggle switch. The dark toggle effects the brightest parts of the webpage. It also inverts the text on the main page and the contact page. Within the mobile display the Project and Contact link are hidden so it is advised to use the hamburger menu to navigate this webpage.
 
 ### Intro
 This compnent is the first page that you will see. It contains a small introduction about myself and contians a link to both my resume and my github.

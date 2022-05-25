@@ -19,18 +19,21 @@
     position: absolute;
     cursor: pointer;
 
-    @include phone {
-      display: none;
-     }
-
     &.left {
-      left: 100px;
+      left: 20px;
       transform: rotateY(180deg);
+     
     }
 
     &.right {
-      right: 100px;
+      right: 20px;
+     
     }
+
+    @include phone {
+    height: 20px; 
+     }
+
   }
   
   .slider {
@@ -59,8 +62,17 @@
         box-shadow: 15px  9px 15px 2px rgba(0,0,0, .6);
         cursor: pointer;
 
+        @include phone {
+          width: 200px;
+          height: 200px;
+         }
+
         .info{
           font-size: 30px;
+
+          @include phone {
+            font-size: 15px;
+           }
         }
 
       }

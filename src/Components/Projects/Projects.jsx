@@ -20,7 +20,7 @@ export default function Projects() {
     {
       id: "3",
       title: "User Authentication Web App",
-      description: "Designed a log-in and sign-up system with the ability to update passwords and emails by utilizing theapp development platform Firebase.",
+      description: "Designed a log-in and sign-up system with the ability to update passwords and emails by utilizing the app development platform Firebase.",
       
     },
   ];
