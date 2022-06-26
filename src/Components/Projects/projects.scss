@@ -1,81 +1,17 @@
 @import '../global.scss';
   
 .Projects {
-  background-color: $mainColor;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  h1{
-    position: absolute;
-    left: 730px;
-    top: 60px;
-    font-size: 47px;
-  }
-
-  .arrow {
-    height: 90px;
-    position: absolute;
-    cursor: pointer;
-
-    &.left {
-      left: 20px;
-      transform: rotateY(180deg);
-     
-    }
-
-    &.right {
-      right: 20px;
-     
-    }
-
-    @include phone {
-    height: 20px; 
-     }
-
-  }
-  
-  .slider {
-    height: 350px;
+  background-color: #438585;
+ 
+  .top{
     display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease-out;
+    justify-content: center;
 
-    .container {
-      width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      .wrapper {
-        width: 500px;
-        height: 300px;
-        background-color: white;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0px 80px 0px 80px;
-        position: relative;
-        box-shadow: 15px  9px 15px 2px rgba(0,0,0, .6);
-        cursor: pointer;
-
-        @include phone {
-          width: 200px;
-          height: 200px;
-         }
-
-        .info{
-          font-size: 30px;
-
-          @include phone {
-            font-size: 15px;
-           }
-        }
-
-      }
+    .header{
+      font-size: 50px;
+      border-style: solid;
+      padding: 10px;
+      box-shadow: 12px 12px 2px 1px rgb(99, 99, 99);
     }
   }
 }

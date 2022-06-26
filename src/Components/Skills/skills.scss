@@ -1,0 +1,47 @@
+@import '../global.scss';
+
+.Skills{
+    background-color: #489999;
+    .top{
+        display: flex;
+        justify-content: center;
+        .header {
+        font-size: 50px;
+        border-style: solid;
+        padding: 10px;
+        box-shadow: 12px 12px 2px 1px rgb(99, 99, 99);
+         }
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        .row-1{
+            display:flex;
+            flex-direction: row;
+        }
+        .row-2{
+            display: flex;
+            flex-direction: row;
+        }
+        .row-3{
+            display:flex;
+            flex-direction: row;
+        }
+
+        p{
+            padding: 20px;
+            font-size: 40px;
+            border: 6px solid;
+            margin: 10px;
+        }
+
+
+    }
+    
+}

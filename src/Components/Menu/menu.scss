@@ -1,12 +1,12 @@
 @import "../global.scss";
 
 .Menu{
-    width: 300px;
+    width: 450px;
     height: 100vh;
     background-color: $mainColor;
     position:fixed;
     top:0;
-    left:-300px;
+    left:-450px;
     z-index: 2;
     display: flex;
     align-items: center;

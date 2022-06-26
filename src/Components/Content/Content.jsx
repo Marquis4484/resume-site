@@ -6,6 +6,9 @@ import Menu from '../Menu/Menu';
 import { useState,useContext} from 'react';
 import {ThemeContext} from '../../context/context';
 import './content.scss'
+import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
+import Interests from '../Interests/Interests';
 
 
 export default function Content() { 
@@ -21,7 +24,10 @@ export default function Content() {
            <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
            <div className='sections'>
             <Intro/> 
+            <AboutMe/>
+            <Skills/>
             <Projects/>
+            <Interests/>
             <Contact/> 
            </div>
          </div>

@@ -15,9 +15,13 @@ export default function Nav({menuOpen, setMenuOpen}) {
             <span className='line3'></span>
           </div>
           
-          <a href='#Projects'className='ProjectNav' onClick={()=>setMenuOpen(false)} >Projects</a>
+            <a href='#AboutMe'className='ProjectNav' onClick={()=>setMenuOpen(false)}>About Me</a>
+            <a href='#Skills' className='ContactNav' onClick={()=>setMenuOpen(false)}>Skills</a>
+            <a href='#Projects'className='ProjectNav' onClick={()=>setMenuOpen(false)} >Projects</a> 
             <a href='#Intro' className='Home' onClick={()=>setMenuOpen(false)}>MS</a>
+            <a href='#Interests'className='ProjectNav' onClick={()=>setMenuOpen(false)} >Interests</a>
             <a href='#Contact' className='ContactNav' onClick={()=>setMenuOpen(false)}>Contact</a>
+            
          
         <div className="right-section">
           
