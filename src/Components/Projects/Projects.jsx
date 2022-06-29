@@ -66,6 +66,7 @@ export default function Projects() {
               {d.desc}
             </div>
             <div className="bottom"  style={{color: darkMode && '#d6d6d6'}}>
+              <h3>{d.name}</h3>
               <h4>Status: {d.status}</h4>
             </div>
           </div>
