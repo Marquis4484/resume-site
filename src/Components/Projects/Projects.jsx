@@ -22,7 +22,7 @@ export default function Projects() {
       id: 2,
       name: "Mock Ecommerce Site",
       img:"assets/Recipe-Roulette.png",
-      desc:"An ecomerce website that uses sanity as a backend and stripe to make real transactions. This website was created in Next.js. ",
+      desc:"An ecommerce website that uses sanity as a backend and stripe to make real transactions. This website was created in Next.js. ",
       website:"https://mock-ecommerce-site.vercel.app/",
       repo: "https://github.com/Marquis4484/mock-ecommerce-site",
       status: 'Online',
@@ -31,7 +31,7 @@ export default function Projects() {
       id: 3,
       name: "Music Player",
       img:"assets/blank.png",
-      desc:"I'm planning on creating a website that plays music in a specified playlist using inspiration from spotify. This application will be built with only CSS,HTML, and vanilla javascript without the use of any framework.",
+      desc:"I'm planning on creating a website that plays music in a specified playlist using inspiration from spotify. This application will be built with only CSS,HTML, and vanilla Javascript without the use of any framework.",
       status: 'Coming Soon',
     },
   ];
