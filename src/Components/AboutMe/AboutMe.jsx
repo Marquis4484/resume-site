@@ -28,7 +28,7 @@ export default function AboutMe() {
         <div className='verticalLine'></div> 
         <div className='column-3'>
           <h3>Willingness To Learn</h3>
-          <p> I am willing to work and learn from others who have more experience than me. I undertand how important it is to continue to learn in this field.</p>
+          <p> I am willing to work and learn from others who have more experience than me. I understand how important it is to continue to learn in this field.</p>
         </div>
       </div>
 

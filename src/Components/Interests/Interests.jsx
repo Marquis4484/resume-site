@@ -21,13 +21,13 @@ export default function Interests() {
     {
       id: "2",
       title: "🖌 Art 🖌",
-      description: "I've designed logos in Adobe illustator and I use Adobe photoshop to edit photos and draw artwork.",
+      description: "I've designed logos in Adobe illustator and I use Adobe photoshop to edit photos and draw artwork!",
      
     },
     {
       id: "3",
       title: " ✨ Social Media ✨",
-      description: "I am very active on LinkedIn and Twitter. Please connect with me an don't be afraid to say hello!",
+      description: "I am an active user on LinkedIn. Please connect with me and don't be afraid to say hello!",
       
     },
     {

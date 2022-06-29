@@ -39,6 +39,12 @@
             font-size: 40px;
             border: 6px solid;
             margin: 10px;
+
+            
+        @include phone {
+            font-size: 16px;
+            padding: 10px;
+           }
         }
 
 
