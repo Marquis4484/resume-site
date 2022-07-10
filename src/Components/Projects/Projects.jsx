@@ -31,8 +31,10 @@ export default function Projects() {
       id: 3,
       name: "Music Player",
       img:"assets/blank.png",
-      desc:"I'm planning on creating a website that plays music in a specified playlist using inspiration from spotify. This application will be built with only CSS,HTML, and vanilla Javascript without the use of any framework.",
-      status: 'Coming Soon',
+      desc:"I've created a website that plays music in a specified playlist using inspiration from spotify. This application was built with only CSS,HTML, and vanilla Javascript without the use of any framework.",
+      status: 'Online',
+      website:"https://marquis4484.github.io/musicplayer/",
+      repo:"https://github.com/Marquis4484/musicplayer"
     },
   ];
 
