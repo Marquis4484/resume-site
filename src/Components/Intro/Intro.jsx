@@ -1,5 +1,5 @@
 import './intro.scss';
-import pdf from './MarquisS-Resume-Website.pdf';
+import pdf from './MarquisS Resume (Website).pdf';
 import { ThemeContext } from "../../context/context";
 import { useContext } from "react";
 
